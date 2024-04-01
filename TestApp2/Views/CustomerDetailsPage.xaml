@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.Views.CustomerDetailsPage"
+             Title="Customer">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  IconImageSource="dotsicon.jpg" NavigationPage.HasNavigationBar="True" Clicked="CustomerMenuClicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Spacing="10">
+            <Frame Margin="8" Padding="5" HasShadow="True" CornerRadius="6">
+                <StackLayout Orientation="Horizontal">
+                <ImageButton Source="notesicon.jpg" CornerRadius="5" Clicked="CalendarClicked" HeightRequest="40" WidthRequest="40" Padding="0"></ImageButton>
+                </StackLayout>
+            </Frame>
+            <Frame Margin="8,2,8,2" Padding="5" HasShadow="True" CornerRadius="6">
+                <StackLayout>
+                    <Label x:Name="CustomerName" TextColor="Blue"  FontSize="20" FontFamily="Default"></Label>
+                    <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="locationicon.jpg" Clicked="LocationClicked" HeightRequest="40" WidthRequest="40" CornerRadius="10"></ImageButton>
+                        <Label x:Name="CustomerAddress" Text="Customer Address" FontSize="16" FontFamily="Default" TextColor="Black"></Label>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame Margin="8,2,8,2" Padding="5" HasShadow="True"  CornerRadius="6">
+                <StackLayout>
+                    <Label TextColor="Blue" Text="Order Contact" FontSize="20" FontFamily="Default"></Label>
+                    <Label x:Name="OrderContactName" Text="Name" FontSize="16" FontFamily="Default" TextColor="Black"></Label>
+                    <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="callicon.jpg" Clicked="OrderContactNumberClicked" HeightRequest="40" WidthRequest="40" CornerRadius="10"></ImageButton>
+                            <Label x:Name="OrderContactNumber"  Text="ContactNumber" VerticalTextAlignment="Center" FontSize="16" FontFamily="Default" TextColor="Black"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="email.jpg" Clicked="OrderContactEmailClicked" HeightRequest="40" WidthRequest="40" CornerRadius="10"></ImageButton>
+                            <Label x:Name="OrderContactEmail"  Text="Email" FontSize="16" VerticalTextAlignment="Center" FontFamily="Default" TextColor="Black"></Label>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame Margin="8,2,8,2" Padding="5" HasShadow="True"  CornerRadius="6">
+                <StackLayout>
+                        <Label TextColor="Blue" Text="Ship To Contact" FontSize="20" FontFamily="Default"></Label>
+                        <Label x:Name="ShipToContactName" Text="Name" FontSize="16" FontFamily="Default" TextColor="Black"></Label>
+                    <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="callicon.jpg" Clicked="ShipToCallClicked" HeightRequest="40" WidthRequest="40" CornerRadius="10"></ImageButton>
+                            <Label x:Name="ShipToContactNumber"  Text="ContactNumber" FontSize="16" VerticalTextAlignment="Center" FontFamily="Default" TextColor="Black"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="email.jpg" Clicked="ShipToContactEmailClicked" HeightRequest="40" WidthRequest="40" CornerRadius="10"></ImageButton>
+                            <Label x:Name="ShipToContactEmail"  Text="Email" FontSize="16" VerticalTextAlignment="Center" FontFamily="Default" TextColor="Black"></Label>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame Margin="8,2,8,2" Padding="5" HasShadow="True"  CornerRadius="6">
+                <StackLayout>
+                        <Label TextColor="Blue" Text="Billing Contact" FontSize="20"  FontFamily="Default"></Label>
+                        <Label x:Name="BillingContactName" Text="Name" FontSize="16" FontFamily="Default" TextColor="Black"></Label>
+                    <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="callicon.jpg" Clicked="BillingContactNumberClicked" HeightRequest="40" WidthRequest="40" CornerRadius="10"></ImageButton>
+                            <Label x:Name="BillingContactNumber"  Text="ContactNumber" FontSize="16" VerticalTextAlignment="Center" FontFamily="Default" TextColor="Black"></Label>
+                    </StackLayout>
+                    <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="email.jpg" Clicked="BillingContactEmailClicked" HeightRequest="40" WidthRequest="40" CornerRadius="10"></ImageButton>
+                            <Label x:Name="BillingContactEmail"  Text="Email" FontSize="16" VerticalTextAlignment="Center" FontFamily="Default" TextColor="Black"></Label>
+                    </StackLayout>
+                </StackLayout>
+            </Frame>
+            <Frame Margin="8,2,8,10" Padding="5" HasShadow="True"  CornerRadius="6">
+                <StackLayout Orientation="Horizontal" Spacing="10">
+                    <Grid>
+                        <Label Text="Customer:" TextColor="Black" FontSize="20" FontAttributes="Bold" FontFamily="Default" Grid.Row="0"></Label>
+                        <Label x:Name="CustomerID" Text="ID" FontSize="20" FontFamily="Default" FontAttributes="Bold" Grid.Row="1"></Label>
+                    </Grid>
+                    <Grid>
+                        <Label Text="Ship-To:" TextColor="Black" FontSize="20" FontAttributes="Bold" FontFamily="Default" Grid.Row="0"></Label>
+                        <Label x:Name="ShipToID" Text="ID"  FontSize="20" FontFamily="Default" FontAttributes="Bold" Grid.Row="1"></Label>
+                    </Grid>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.Views.NewAppointmentPage"
+             >
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  IconImageSource="dotsicon.jpg" NavigationPage.HasNavigationBar="True" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical" Spacing="10">
+                <Frame Margin="1" HasShadow="True">
+                    <StackLayout>
+                        <Label Text="Rental Contract" FontSize="20" FontFamily="Default" TextColor="DodgerBlue" FontAttributes="Bold"/>
+                        <Entry x:Name="NewAppType" Text="Rental Contract" TextColor="Black" FontSize="20" FontFamily="Default"></Entry>
+                    </StackLayout>
+                </Frame>
+                <Frame Margin="1" HasShadow="True">
+                    <StackLayout>
+                        <Label  Text="Description" FontSize="20" FontFamily="Default" TextColor="DodgerBlue" FontAttributes="Bold"/>
+                        <Entry x:Name="NewAppDescription" FontSize="20"></Entry>
+                        <Label Text="Date:" FontSize="20" FontFamily="Default" FontAttributes="Bold" ></Label>
+                        <StackLayout Orientation="Horizontal">
+                            <Entry x:Name="NewAppDate" Placeholder="Date" FontSize="20" TextColor="Black" FontFamily="Default"></Entry>
+                            <Entry x:Name="NewAppTime" Placeholder="Time" FontSize="20" TextColor="Black" FontFamily="Default"></Entry>
+                        </StackLayout>
+                        <Label Text="Hours:" FontSize="20" FontFamily="Default" FontAttributes="Bold" ></Label>
+                        <Entry x:Name="NewAppDuration" Text="1.00" TextColor="Black" FontSize="20" FontFamily="Default"></Entry>
+                        <Label Text="Status:" FontSize="20" FontFamily="Default" FontAttributes="Bold" ></Label>
+                        <Picker x:Name="NewAppStatusList" HorizontalTextAlignment="Start" ></Picker>
+                        <Label Text="Complete:" FontSize="20" FontFamily="Default" FontAttributes="Bold" ></Label>
+                        <Switch x:Name="NewCompleteSwitch" HorizontalOptions="Start" IsToggled="False"></Switch>
+                        <Label Text="Partner:" FontSize="20" FontFamily="Default" FontAttributes="Bold"></Label>
+                        <Entry x:Name="NewAppPartnerName" FontSize="20" IsEnabled="False" FontFamily="Default"></Entry>
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="White" Margin="1" HasShadow="True">
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Note" FontSize="20" FontFamily="Default" TextColor="DodgerBlue" FontAttributes="Bold"/>
+                        <Entry FontSize="20"></Entry>
+                        <Frame HeightRequest="100" WidthRequest="100" Margin="1"></Frame>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

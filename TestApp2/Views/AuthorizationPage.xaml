@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.Views.AuthorizationPage"
+             Title="Authorization">
+    <ContentPage.Content>
+        <StackLayout Margin="1">
+            <Label Text="Customer:" TextColor="Blue" FontSize="20" ></Label>
+            <Label x:Name="CustomerName" TextColor="Black" FontSize="20" ></Label>
+            <Label Text="Rental Contract:" TextColor="Blue" FontSize="20" ></Label>
+            <Label x:Name="ContractID" TextColor="Black" FontSize="20" ></Label>
+            <Label Text="Customer Reference:" TextColor="Blue" FontSize="20" ></Label>
+            <Entry TextColor="Black" HorizontalOptions="StartAndExpand"></Entry>
+            <Label Text="Card System:" TextColor="Blue" FontSize="20" ></Label>
+            <Entry TextColor="Black" HorizontalOptions="StartAndExpand"></Entry>
+            <Label Text="Stored Card:" TextColor="Blue" FontSize="20" ></Label>
+            <Entry TextColor="Black" HorizontalOptions="StartAndExpand"></Entry>
+            <Label Text="Amount:" TextColor="Blue" FontSize="20" ></Label>
+            <Entry TextColor="Black" Placeholder="0" HorizontalOptions="StartAndExpand"></Entry>
+            <Button Text="SUBMIT" BackgroundColor="Green" TextColor="White" FontAttributes="Bold" CornerRadius="10" Clicked="AuthorizationSubmitClicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

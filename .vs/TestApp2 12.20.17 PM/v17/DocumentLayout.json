@@ -1,0 +1,341 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\collectionlinedetailview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\collectionlinedetailview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\testapp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\testapp2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\settingspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\settingspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\settingspage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\linespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\linespage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\appointmentdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\appointmentdetailpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\collectionlines.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\collectionlines.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\collectionlines.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\collectionlines.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\linepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\linepage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\linespage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\linespage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\yardpickinglinedetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\yardpickinglinedetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\yardreturnlinedetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\yardreturnlinedetails.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\yardreturnline.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\yardreturnline.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\appointmentdetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\appointmentdetailpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\attachmentspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\attachmentspage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\common\\helper\\mongooseapirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\common\\helper\\mongooseapirequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\workorderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\workorderpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\workorderpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\workorderpage.xaml||{2974C621-7033-421A-B08A-11D27B021D1B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\pocformview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\pocformview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|d:\\yiit projects\\nov -relase\\nov -relase\\cloudinfor\\cloudinfor\\testapp2\\views\\yardpickinglines.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB2DD48D-4AAB-487D-AF7F-77BD49ED9215}|TestApp2\\TestApp2.csproj|solutionrelative:testapp2\\views\\yardpickinglines.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 133,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CollectionLineDetailView.xaml.cs",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\CollectionLineDetailView.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\CollectionLineDetailView.xaml.cs",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\CollectionLineDetailView.xaml.cs",
+              "RelativeToolTip": "TestApp2\\Views\\CollectionLineDetailView.xaml.cs",
+              "ViewState": "AQIAAM8AAAAAAAAAAAAiwNQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T13:00:07.773Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "CollectionLines.xaml",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\CollectionLines.xaml",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\CollectionLines.xaml",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\CollectionLines.xaml",
+              "RelativeToolTip": "TestApp2\\Views\\CollectionLines.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABEAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-29T12:59:55.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "YardReturnLine.xaml.cs",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\YardReturnLine.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\YardReturnLine.xaml.cs",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\YardReturnLine.xaml.cs",
+              "RelativeToolTip": "TestApp2\\Views\\YardReturnLine.xaml.cs",
+              "ViewState": "AQIAAIMAAAAAAAAAAAAiwIgAAAA4AQAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T12:50:19.341Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CollectionLines.xaml.cs",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\CollectionLines.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\CollectionLines.xaml.cs",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\CollectionLines.xaml.cs",
+              "RelativeToolTip": "TestApp2\\Views\\CollectionLines.xaml.cs",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAiwGYAAABHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T12:48:44.627Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "LinesPage.xaml.cs",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\LinesPage.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\LinesPage.xaml.cs",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\LinesPage.xaml.cs",
+              "RelativeToolTip": "TestApp2\\Views\\LinesPage.xaml.cs",
+              "ViewState": "AQIAANQAAAAAAAAAAAAiwNoAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-29T12:45:16.933Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "MongooseAPIRequest.cs",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Common\\Helper\\MongooseAPIRequest.cs",
+              "RelativeDocumentMoniker": "TestApp2\\Common\\Helper\\MongooseAPIRequest.cs",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Common\\Helper\\MongooseAPIRequest.cs",
+              "RelativeToolTip": "TestApp2\\Common\\Helper\\MongooseAPIRequest.cs",
+              "ViewState": "AQIAAK4AAAAAAAAAAAAYwLsAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:51:11.509Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "SettingsPage.xaml",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\SettingsPage.xaml",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\SettingsPage.xaml",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\SettingsPage.xaml",
+              "RelativeToolTip": "TestApp2\\Views\\SettingsPage.xaml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAABcAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-28T06:04:23.956Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SettingsPage.xaml.cs",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\SettingsPage.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\SettingsPage.xaml.cs",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\SettingsPage.xaml.cs",
+              "RelativeToolTip": "TestApp2\\Views\\SettingsPage.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAvwB8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T06:04:19.117Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AttachmentsPage.xaml.cs",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\AttachmentsPage.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\AttachmentsPage.xaml.cs",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\AttachmentsPage.xaml.cs",
+              "RelativeToolTip": "TestApp2\\Views\\AttachmentsPage.xaml.cs",
+              "ViewState": "AQIAAEEAAAAAAAAAAAAuwE0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:23:50.741Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "WorkOrderPage.xaml",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\WorkOrderPage.xaml",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\WorkOrderPage.xaml",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\WorkOrderPage.xaml",
+              "RelativeToolTip": "TestApp2\\Views\\WorkOrderPage.xaml",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAADgAAAA/AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-28T05:17:20.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "WorkOrderPage.xaml.cs",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\WorkOrderPage.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\WorkOrderPage.xaml.cs",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\WorkOrderPage.xaml.cs",
+              "RelativeToolTip": "TestApp2\\Views\\WorkOrderPage.xaml.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T05:17:14.11Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TestApp2.csproj",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\TestApp2.csproj",
+              "RelativeDocumentMoniker": "TestApp2\\TestApp2.csproj",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\TestApp2.csproj",
+              "RelativeToolTip": "TestApp2\\TestApp2.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-28T04:59:30.664Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "YardReturnLineDetails.xaml.cs",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\YardReturnLineDetails.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\YardReturnLineDetails.xaml.cs",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\YardReturnLineDetails.xaml.cs",
+              "RelativeToolTip": "TestApp2\\Views\\YardReturnLineDetails.xaml.cs",
+              "ViewState": "AQIAAM0AAAAAAAAAAAAuwNQAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T04:57:00.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "PocFormView.xaml.cs",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\PocFormView.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\PocFormView.xaml.cs",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\PocFormView.xaml.cs",
+              "RelativeToolTip": "TestApp2\\Views\\PocFormView.xaml.cs",
+              "ViewState": "AQIAANsAAAAAAAAAAAAwwOIAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T04:55:26.25Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "YardPickingLineDetail.xaml.cs",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\YardPickingLineDetail.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\YardPickingLineDetail.xaml.cs",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\YardPickingLineDetail.xaml.cs",
+              "RelativeToolTip": "TestApp2\\Views\\YardPickingLineDetail.xaml.cs",
+              "ViewState": "AQIAAFgAAAAAAAAAAAAuwGAAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T04:54:37.986Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "YardPickingLines.xaml.cs",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\YardPickingLines.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\YardPickingLines.xaml.cs",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\YardPickingLines.xaml.cs",
+              "RelativeToolTip": "TestApp2\\Views\\YardPickingLines.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-28T04:54:33.374Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "LinePage.xaml.cs",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\LinePage.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\LinePage.xaml.cs",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\LinePage.xaml.cs",
+              "RelativeToolTip": "TestApp2\\Views\\LinePage.xaml.cs",
+              "ViewState": "AQIAAEcAAAAAAAAAAAAiwEwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T12:03:23.489Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LinesPage.xaml",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\LinesPage.xaml",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\LinesPage.xaml",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\LinesPage.xaml",
+              "RelativeToolTip": "TestApp2\\Views\\LinesPage.xaml",
+              "ViewState": "AQIAAA8AAAAAAAAAAADwvxAAAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-26T12:01:07.419Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AppointmentDetailPage.xaml",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\AppointmentDetailPage.xaml",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\AppointmentDetailPage.xaml",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\AppointmentDetailPage.xaml",
+              "RelativeToolTip": "TestApp2\\Views\\AppointmentDetailPage.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-03-26T12:00:34.121Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AppointmentDetailPage.xaml.cs",
+              "DocumentMoniker": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\AppointmentDetailPage.xaml.cs",
+              "RelativeDocumentMoniker": "TestApp2\\Views\\AppointmentDetailPage.xaml.cs",
+              "ToolTip": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\Views\\AppointmentDetailPage.xaml.cs",
+              "RelativeToolTip": "TestApp2\\Views\\AppointmentDetailPage.xaml.cs",
+              "ViewState": "AQIAAI8EAAAAAAAAAAAcwJMEAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-26T11:59:59.449Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

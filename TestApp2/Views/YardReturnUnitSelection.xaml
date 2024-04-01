@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.Views.YardReturnUnitSelection"
+             Title="Yard PickUp Unit Selection">
+    <ContentPage.Content>
+        <StackLayout Padding="10">
+            <StackLayout HorizontalOptions="FillAndExpand" Margin="15">
+                <Label  Text="Select Unit Number" FontSize="18" TextColor="Black" FontAttributes="Bold"/>
+                <Picker x:Name="Unit_List" Title="Unit Number" FontSize="14" FontAttributes="Bold" HorizontalOptions="FillAndExpand" VerticalOptions="StartAndExpand" Margin="0,20,0,0" SelectedIndexChanged="Unit_List_SelectedIndexChanged"/>
+                <!--<Label  x:Name="selectedPickerValue" MaxLines="2"/>-->
+            </StackLayout>
+            
+            <Button Text="save" BackgroundColor="Green" TextColor="White" FontAttributes="Bold" Padding="10"  Clicked="SaveClicked" HorizontalOptions="CenterAndExpand" FontSize="16" VerticalOptions="EndAndExpand" CornerRadius="10" Margin="0,18" />
+            <!--<Button Text="Save" Padding="10" BackgroundColor="Green" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalOptions="Center" CornerRadius="10" Clicked="SaveDataLocalDB"></Button>-->
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

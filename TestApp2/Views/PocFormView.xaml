@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<ContentPage
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:forms="clr-namespace:SignaturePad.Forms;assembly=SignaturePad.Forms"
+    Title="Proof Of Collection"
+    x:Class="TestApp2.Views.PocFormView">
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem x:Name="CollectionMenu" IconImageSource="dotsicon.jpg"  />
+    </ContentPage.ToolbarItems>-->
+    <ContentPage.Content>
+            <StackLayout x:Name="root1" Orientation="Vertical">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50"></RowDefinition>
+                        <RowDefinition Height="*"></RowDefinition>
+                        <RowDefinition Height="280"></RowDefinition>
+                    </Grid.RowDefinitions>
+                <Frame  Grid.Row="0" Padding="10,5,0,0">
+                    <StackLayout Orientation="Vertical" Margin="1">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Rental Contract: " FontAttributes="Bold" TextColor="Blue" FontSize="12" ></Label>
+                            <Label x:Name="contractID" TextColor="Black" FontSize="12" HorizontalOptions="Start" FontAttributes="Bold"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                                <Label Text="Customer: " FontAttributes="Bold" TextColor="Blue" FontSize="12" ></Label>
+                            <Label x:Name="CustName" FontAttributes="Bold" FontSize="12" HorizontalOptions="Start" TextColor="Black"  FontFamily="Default"></Label>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame  Grid.Row="1" Padding="10,0,0,0">
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Details:" TextColor="Blue" FontSize="12" FontAttributes="Bold" FontFamily="Default"></Label>
+                        <StackLayout Orientation="Horizontal" Spacing="50">
+                            <Label Text="Line Num:" TextColor="Blue" FontSize="12" FontAttributes="Bold" FontFamily="Default" HorizontalOptions="Start" Grid.Column="0"></Label>
+                            <Label Text="Item:" TextColor="Blue" FontSize="12" FontAttributes="Bold" FontFamily="Default" Grid.Column="1" HorizontalOptions="Start" ></Label>
+                            <Label Text="Quantity:" TextColor="Blue" FontSize="12" FontAttributes="Bold" FontFamily="Default" Grid.Column="2" HorizontalOptions="Start"></Label>
+                            <Label Text="Unit:" TextColor="Blue" FontSize="12" FontAttributes="Bold" FontFamily="Default" Grid.Column="3" HorizontalOptions="Start"></Label>
+                        </StackLayout>
+                        <ListView x:Name="CollectionItemsListView" IsEnabled="True" SeparatorVisibility="Default" HasUnevenRows="true" SeparatorColor="Black">
+                            <ListView.ItemTemplate>
+                                <DataTemplate>
+                                    <ViewCell>
+                                        <StackLayout Padding="10,0,0,0">
+                                            <Grid>
+                                                <Label x:Name="CollectionLineNum" Text="{Binding Coll_LineNum}" FontAttributes="Bold" TextColor="Black" FontSize="12" FontFamily="Default" HorizontalOptions="Start"  Grid.Column="0"></Label>
+                                                <Label x:Name="CollectionItemName" Text="{Binding Coll_ItemName}" FontAttributes="Bold" TextColor="Black"  FontSize="12" FontFamily="Default" HorizontalOptions="Start" Grid.Column="1"></Label>
+                                                <Label x:Name="CollectionQuantity" Text="{Binding Coll_Quantity}" FontAttributes="Bold" TextColor="Black" FontSize="12" FontFamily="Default" HorizontalOptions="Start" Grid.Column="2"></Label>
+                                                <Label x:Name="CollectionUnit" Text="{Binding Coll_Unit}" FontAttributes="Bold" TextColor="Black" FontSize="12" FontFamily="Default" HorizontalOptions="Start" Margin="-10,0,0,0" Grid.Column="3"></Label>
+                                            </Grid>
+                                        </StackLayout>
+                                    </ViewCell>
+                                </DataTemplate>
+                            </ListView.ItemTemplate>
+                        </ListView>                            
+                        </StackLayout>
+                </Frame>
+                <Frame Margin="1" Grid.Row="2">
+                    <StackLayout>
+                        <Label Text="Signature:" TextColor="Blue" FontSize="12" FontAttributes="Bold" FontFamily="Default"></Label>
+                        <forms:SignaturePadView x:Name="MainSignaturePad" BackgroundColor="White" StrokeColor="Black" StrokeWidth="2" WidthRequest="280" HeightRequest="120"/>
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Name:" TextColor="Blue" FontSize="12" VerticalTextAlignment="Center" FontAttributes="Bold" Grid.Column="0" FontFamily="Default"></Label>
+                            <Entry x:Name="EntryName" FontSize="12" Placeholder="Enter your Name"  Grid.Column="1" HorizontalOptions="StartAndExpand"></Entry>
+                            
+                        </StackLayout>
+                        <Grid >
+                            <DatePicker x:Name="Date_Picker" FontSize="12" Grid.Column="0" Date="{Binding SelectedDate, StringFormat='{yyyy-mm-dd}'}"></DatePicker>
+                            <TimePicker x:Name="Time_Picert" FontSize="12" Grid.Column="1" Time="{Binding SelectedTime}"></TimePicker>
+                            <Button Text="Approve" FontAttributes="Bold" x:Name="SubmitCollection" Clicked="CollectionSubmitClicked" BackgroundColor="Green" FontSize="10" TextColor="White" Grid.Column="2" HorizontalOptions="Start" IsVisible="true"></Button>
+                        </Grid>
+                    </StackLayout>
+                </Frame>
+                </Grid>
+            </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

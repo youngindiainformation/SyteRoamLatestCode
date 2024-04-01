@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.Verify.Login"
+             BackgroundColor="White"
+             NavigationPage.HasNavigationBar="False"
+             xmlns:zxing="clr-namespace:ZXing.Net.Mobile.Forms;assembly=ZXing.Net.Mobile.Forms">
+    <ContentPage.Content>
+        <StackLayout>
+         <StackLayout Orientation="Vertical" BackgroundColor="White"  Padding="60" Spacing="15">
+            <Image Source="appLogo.png" WidthRequest="500" HeightRequest="100" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White"/>
+            <Entry x:Name="UsernameInput" Placeholder="Username" FontSize="15" FontAttributes="Bold" IsVisible="True"/>
+            <Entry x:Name="PasswordInput" Completed="PasswordInput_Completed" Placeholder="Password" IsPassword="True" FontSize="15" FontAttributes="Bold" IsVisible="True"/>
+            <Picker x:Name="Configuration_List" Title="Configuration" FontSize="15" FontAttributes="Bold" ></Picker>
+            <ImageButton x:Name="LoginBtn" Padding="5" BackgroundColor="White" Source="loginicon.jpg" HeightRequest="50" HorizontalOptions="CenterAndExpand" Clicked="LogInClicked"></ImageButton>
+            <Button Text="Settings" CornerRadius="10" TextColor="Green" BackgroundColor="White" Clicked="Settings_Clicked"></Button>
+            <Button Text="IonAPI" CornerRadius="10" TextColor="Green" BackgroundColor="White" Clicked="IonAPIClicked" IsVisible="false"></Button>
+                <Button Text="Scan QRCode" x:Name="qRCodeScanner" TextColor="Green" BackgroundColor="White" IsVisible="false" Clicked="qRCodeScanner_Clicked"/>
+         </StackLayout>
+         <!--<ActivityIndicator x:Name="activityIndicator" IsRunning="False" VerticalOptions="Center" HorizontalOptions="Center" Color="Blue"/>-->
+            </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
+
+
+

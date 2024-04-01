@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.TestApp2SyteLineServicePageFlyout"
+             x:Name="FlyoutPage"
+             Title="FlyoutPage"
+             IconImageSource="dotsicon.jpg"
+             BackgroundColor="White">
+    <ScrollView>
+    <StackLayout>
+        <StackLayout Padding="10,5" BackgroundColor="Blue" Orientation="Horizontal" HorizontalOptions="Fill">
+              <ImageButton CornerRadius="5" Source="homeicon.jpg" Padding="6" BackgroundColor="Blue"  HeightRequest="50" WidthRequest="50" VerticalOptions="Center" HorizontalOptions="Center"></ImageButton>
+              <Label VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" x:Name="Username" Text="Username" TextColor="White" FontAttributes="Bold" FontSize="20"/>
+        </StackLayout>
+        <ListView x:Name="MenuItemsListView" SeparatorVisibility="Default"  HasUnevenRows="true" ItemsSource="{Binding MenuItems}" SeparatorColor="Black">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <StackLayout Padding="10,5" Orientation="Horizontal" HorizontalOptions="Fill" BackgroundColor="White" Margin="4">
+                            <ImageButton CornerRadius="5" Source="{Binding Flyoutouticon}" HeightRequest="40" WidthRequest="40" VerticalOptions="Center" HorizontalOptions="Center"></ImageButton>
+                            <Label VerticalOptions="FillAndExpand" VerticalTextAlignment="Center" Text="{Binding Title}" TextColor="Black" FontSize="16"/>
+                        </StackLayout>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+    </ScrollView>
+</ContentPage>

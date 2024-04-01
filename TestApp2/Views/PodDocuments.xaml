@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.Views.PodDocuments"
+             Title="Submitted Proof of Delivery">
+    <ContentPage.Content>
+        <StackLayout>
+            <Grid x:Name="NoItems">
+                <Label x:Name="label"
+                       Text = "No Records found" FontFamily="Bold"
+                       FontSize ="Default"
+                       HorizontalOptions = "FillAndExpand"
+                       HorizontalTextAlignment = "Center"
+                       VerticalTextAlignment = "Center"
+                       VerticalOptions = "CenterAndExpand"/>
+            </Grid>
+            <ListView x:Name="ListPOD"   SeparatorVisibility="Default" HasUnevenRows="true" SeparatorColor="Black">
+                
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10">
+
+                                <StackLayout Orientation="Horizontal" >
+                                    <StackLayout Orientation="Vertical" >
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Name: " TextColor="Black" FontSize="16" FontAttributes="Bold" ></Label>
+                                            <Label x:Name="Name" Text="{Binding PodName}" TextColor="DodgerBlue" FontAttributes="Bold" FontSize="16"></Label>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Work OrderID: " TextColor="Black" FontSize="16" FontAttributes="Bold" ></Label>
+                                            <Label x:Name="WorkerOrderID" Text="{Binding podID}" TextColor="DodgerBlue" FontAttributes="Bold" FontSize="16"></Label>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Rental Contract: " TextColor="Black" FontSize="16" FontAttributes="Bold" ></Label>
+                                            <Label x:Name="ContractId" Text="{Binding podTime}" TextColor="DodgerBlue" FontAttributes="Bold" FontSize="16"></Label>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Line Numbers: " TextColor="Black" FontSize="16" FontAttributes="Bold" ></Label>
+                                            <Label x:Name="LineNumber" Text="{Binding podLineNumbers}" TextColor="DodgerBlue" FontAttributes="Bold" FontSize="16"></Label>
+                                        </StackLayout>
+                                   
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Date: " TextColor="Black" FontSize="16" FontAttributes="Bold" ></Label>
+                                            <Label x:Name="Date" Text="{Binding podDate}" TextColor="DodgerBlue" FontAttributes="Bold" FontSize="16"></Label>
+                                        </StackLayout>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Time: " TextColor="Black" FontSize="16" FontAttributes="Bold" ></Label>
+                                            <Label x:Name="Time" Text="{Binding podTime}" TextColor="DodgerBlue" FontAttributes="Bold" FontSize="16"></Label>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                                
+                                <ImageButton Source="nexticon.jpg" Clicked="ImageButton_Clicked" IsEnabled="True" HeightRequest="30"  WidthRequest="40" BackgroundColor="White" HorizontalOptions="End"  CornerRadius="5"></ImageButton>
+
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

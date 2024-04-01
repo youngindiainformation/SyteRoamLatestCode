@@ -1,0 +1,327 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2.iOS\\TestApp2.iOS.csproj": {}
+  },
+  "projects": {
+    "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2.iOS\\TestApp2.iOS.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2.iOS\\TestApp2.iOS.csproj",
+        "projectName": "TestApp2.iOS",
+        "projectPath": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2.iOS\\TestApp2.iOS.csproj",
+        "packagesPath": "C:\\Users\\srika\\.nuget\\packages\\",
+        "outputPath": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2.iOS\\obj\\",
+        "projectStyle": "PackageReference",
+        "skipContentFileWrite": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\srika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "xamarinios10"
+        ],
+        "sources": {
+          "C:\\Packages": {},
+          "D:\\Visual Studio22\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "xamarinios10": {
+            "projectReferences": {
+              "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\TestApp2.csproj": {
+                "projectPath": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\TestApp2.csproj"
+              }
+            }
+          }
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "xamarinios10": {
+          "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.2.0.564, )"
+            },
+            "CarouselView.FormsPlugin": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "ImageFromXamarinUI": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "PCLStorage": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Plugin.DeviceOrientation": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Xam.Plugin.Connectivity": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Xam.Plugin.Geolocator": {
+              "target": "Package",
+              "version": "[4.5.0.6, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[5.0.1, )"
+            },
+            "Xam.Plugins.Forms.DeviceOrientation": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.Controls.SignaturePad.Forms": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2515, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2515, )"
+            },
+            "Xamarin.MediaGallery": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Xamarin.MediaGallery.Permision": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.8, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win": {
+          "#import": []
+        },
+        "win-arm64": {
+          "#import": []
+        },
+        "win-x64": {
+          "#import": []
+        },
+        "win-x86": {
+          "#import": []
+        }
+      }
+    },
+    "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\TestApp2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\TestApp2.csproj",
+        "projectName": "TestApp2",
+        "projectPath": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\TestApp2.csproj",
+        "packagesPath": "C:\\Users\\srika\\.nuget\\packages\\",
+        "outputPath": "D:\\YIIT Projects\\Nov -Relase\\Nov -Relase\\CloudInfor\\CloudInfor\\TestApp2\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\srika\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Packages": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "D:\\Visual Studio22\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "targetAlias": "netstandard2.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "targetAlias": "netstandard2.0",
+          "dependencies": {
+            "Acr.UserDialogs": {
+              "target": "Package",
+              "version": "[7.2.0.564, )"
+            },
+            "CarouselView.FormsPlugin": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "ImageFromXamarinUI": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.NETCore.UniversalWindowsPlatform": {
+              "target": "Package",
+              "version": "[6.2.13, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "PCLStorage": {
+              "target": "Package",
+              "version": "[1.0.2, )"
+            },
+            "Plugin.DeviceOrientation": {
+              "target": "Package",
+              "version": "[1.0.7, )"
+            },
+            "Plugin.Permissions": {
+              "target": "Package",
+              "version": "[6.0.1, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Xam.Plugin.Connectivity": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "Xam.Plugin.Geolocator": {
+              "target": "Package",
+              "version": "[4.5.0.6, )"
+            },
+            "Xam.Plugin.Media": {
+              "target": "Package",
+              "version": "[6.0.1-beta, )"
+            },
+            "Xam.Plugins.Forms.DeviceOrientation": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Xamarin.Controls.SignaturePad.Forms": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "Xamarin.Essentials": {
+              "target": "Package",
+              "version": "[1.7.3, )"
+            },
+            "Xamarin.FFImageLoading.Forms": {
+              "target": "Package",
+              "version": "[2.4.11.982, )"
+            },
+            "Xamarin.Forms": {
+              "target": "Package",
+              "version": "[5.0.0.2515, )"
+            },
+            "Xamarin.Forms.Maps": {
+              "target": "Package",
+              "version": "[5.0.0.2478, )"
+            },
+            "Xamarin.MediaGallery": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Xamarin.MediaGallery.Permision": {
+              "target": "Package",
+              "version": "[2.0.0, )"
+            },
+            "ZXing.Net": {
+              "target": "Package",
+              "version": "[0.16.8, )"
+            },
+            "ZXing.Net.Mobile": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "ZXing.Net.Mobile.Forms": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "sqlite-net-pcl": {
+              "target": "Package",
+              "version": "[1.8.116, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

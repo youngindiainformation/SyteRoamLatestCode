@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.Notes"
+             x:Name="ContentPage2"
+             Title="Notes" BackgroundColor="White">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  IconImageSource="addicon.jpg" NavigationPage.HasNavigationBar="True" NavigationPage.BackButtonTitle="!" Clicked="AddNoteClicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ListView x:Name="ATTLIST" ItemsSource="{Binding Source={x:Reference ContentPage2}, Path=BindingContext.MyList}" IsVisible="True" HasUnevenRows="True">
+
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Vertical" Padding="10">
+                                <Label Text="{Binding Listdata}" TextColor="Red" FontSize="15" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Label>
+                                <Label Text="{Binding Subnotes}" TextColor="Black" FontSize="15" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand"></Label>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+
+
+    </ContentPage.Content>
+</ContentPage>

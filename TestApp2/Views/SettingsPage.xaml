@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.SettingsPage"
+             Title="Settings"
+             BackgroundColor="White"
+             NavigationPage.HasBackButton="True">
+    <ContentPage.Content>
+         <ScrollView>
+            <StackLayout>
+                <Frame>
+                    <StackLayout Orientation="Vertical" BackgroundColor="White" Margin="2" Padding="10" >
+                        <Frame CornerRadius="10">
+                            <StackLayout>
+                                <Label  Text="Connection Information" FontAttributes="Bold" FontSize="20" TextColor="Green" HorizontalTextAlignment="Start" VerticalTextAlignment="Start" ></Label>
+                                <StackLayout Orientation="Horizontal">
+                                    <Switch IsToggled="False" x:Name="toggleButton" Toggled="toggleButton_Toggled" HorizontalOptions="Fill"></Switch>
+                                    <Label Text="ION API" TextColor="DeepPink" FontSize="20" FontAttributes="Bold" HorizontalOptions="Fill"></Label>
+                                </StackLayout>
+                                <Entry Placeholder="Web Server Address" HorizontalTextAlignment="Start" x:Name="web_Server"></Entry>
+                                <Entry Placeholder="Configurations name" HorizontalTextAlignment="Start" x:Name="config_group"></Entry>
+                                <Picker x:Name="Configuration_Settings_List" Title="Configuration" HorizontalTextAlignment="Start" ></Picker>
+                            </StackLayout>
+                        </Frame>
+                        <Frame IsVisible="False" x:Name="UserDetailsField" CornerRadius="10">
+                            <StackLayout>
+                                <Label Text="User Information" FontAttributes="Bold" FontSize="20" TextColor="Green" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+                                <Entry Placeholder="UserName" x:Name="inputUserName" />
+                                <Entry Placeholder="Password" IsPassword="True" x:Name="inputPassword" />
+                                <Button Text="Validate" Clicked="Submit_Clicked" BackgroundColor="Green" FontSize="20" FontAttributes="Bold" TextColor="White" CornerRadius="5"></Button>
+                            </StackLayout>
+                        </Frame>
+                     </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.AppointmentsHomePage"
+            BackgroundColor="White">
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem  IconImageSource="addicon.jpg" NavigationPage.HasNavigationBar="True" Clicked="AddAppointmentClicked"/>
+    </ContentPage.ToolbarItems>-->
+    <ContentPage.Content>        
+            <StackLayout x:Name="outerStack" Orientation="Vertical">
+                <StackLayout Orientation="Horizontal" Padding="15">
+                    <Switch HorizontalOptions="Start" IsToggled="False" Toggled="swToggle_Toggled" x:Name="swToggle" ThumbColor="Blue"></Switch>
+                    <Label Text="My Current Only" FontSize="16"   FontAttributes="Bold" FontFamily="Default"></Label>
+                </StackLayout>              
+                <ListView x:Name="MenuItemsListView" IsEnabled="True" ItemTapped="MenuItemsListView_ItemTapped" SelectionMode="Single" SeparatorVisibility="Default" HasUnevenRows="true" SeparatorColor="Black" Refreshing="MenuItemsListView_Refreshing" IsPullToRefreshEnabled="True">
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout Padding="10">
+                                <Label x:Name="ScheduledDate" Text="{Binding ScheduledDate}" FontSize="16" TextColor="Black" FontAttributes="Bold" ></Label>
+                                <Grid>
+                                    <StackLayout Orientation="Horizontal" HorizontalOptions="Fill" BackgroundColor="White" Grid.Column="0">
+                                    <BoxView HeightRequest="60" WidthRequest="10" Color="#8feb34"></BoxView>
+                                        <StackLayout Orientation="Vertical" HorizontalOptions="StartAndExpand">
+                                            <Label x:Name="Contractid" Text="{Binding Contractid}" TextColor="DodgerBlue" FontAttributes="Bold" FontSize="16"></Label>
+                                            <Label x:Name="CustomerName" Text="{Binding CustomerName}" TextColor="DodgerBlue" FontAttributes="Bold" FontSize="16"></Label>
+                                            <Label x:Name="Status" Text="{Binding Status}" TextColor="Black" FontSize="16" ></Label>
+                                            <StackLayout Orientation="Horizontal">
+                                                <Label x:Name="ScheduledTime" Text="{Binding ScheduledTime}" TextColor="Black" FontSize="16"></Label>
+                                                <Label Text="(" TextColor="Black" FontSize="16"></Label>
+                                            <Label x:Name="Duration" Text="{Binding Duration}" TextColor="Black" FontSize="16"></Label>
+                                                <Label Text=")" TextColor="Black" FontSize="16"></Label>
+                                            </StackLayout>
+                                        </StackLayout>
+                                        <ImageButton Grid.Column="1" Source="nexticon.jpg" IsEnabled="False" HeightRequest="20" WidthRequest="40" BackgroundColor="White" HorizontalOptions="End" Clicked="AppointmentClicked" CornerRadius="5"/>
+                                </StackLayout>
+                                </Grid>
+                            </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+        
+    </ContentPage.Content>
+</ContentPage>

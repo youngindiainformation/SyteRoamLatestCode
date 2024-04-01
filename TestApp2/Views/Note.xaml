@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.Note" Title="Note" BackgroundColor="White" >
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Note:" FontSize="20" FontAttributes="Bold" FontFamily="Default"></Label>
+            <Entry x:Name="DateTimeEntry" ></Entry>
+            <Editor x:Name="EditorText" Margin="1" HorizontalOptions="Fill" MaxLength="500" VerticalOptions="Fill" HeightRequest="200" WidthRequest="30">
+            </Editor>
+
+            <StackLayout Orientation="Horizontal">
+                <Switch IsToggled="True"></Switch>
+                <Label Text="Internal" FontSize="20" FontFamily="Default" ></Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Switch IsEnabled="False"></Switch>
+                <Label Text="System" FontSize="20" FontFamily="Default" ></Label>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Switch IsEnabled="False"></Switch>
+                <Label Text="Reusable" FontSize="20" FontFamily="Default" ></Label>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

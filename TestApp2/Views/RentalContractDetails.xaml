@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.Views.RentalContractDetails"
+             Title="Rental Contract">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <Frame Margin="1" HasShadow="True" IsVisible="False">
+                    <StackLayout IsVisible="false" Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="20" Padding="10">
+                        <ImageButton x:Name="clockId" CornerRadius="5" Source="clockiconorange.jpg" Clicked="ClockClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton Source="notesicon.jpg" CornerRadius="5" Clicked="CalendarClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton Source="cameraicon.jpg" CornerRadius="5" Clicked="CameraClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton Source="galleryicon.jpg" CornerRadius="5" Clicked="GalleryClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton Source="attachmenticon.jpg" CornerRadius="5" Clicked="AttachmentClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton Source="workordericon.jpg" CornerRadius="5" Clicked="NotepadClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                    </StackLayout>
+                </Frame>
+                <Frame IsVisible="False">
+                    <StackLayout>
+                        <Label x:Name="ClockedOnTextLabel" TextColor="Green" Text="Clocked On:" FontSize="18" FontAttributes="Bold" FontFamily="Default" IsVisible="False"></Label>
+                        <Label x:Name="ClockedOnText" FontSize="18" TextColor="Red" IsVisible="False"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame Margin="1" HasShadow="True">
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Horizontal">
+                            <Label  Text="Rental Contract: " FontSize="18" FontFamily="Default" TextColor="Blue" />
+                            <Label x:Name="RentalContractNumber" Text="{Binding RentalContractNumber}" FontSize="18" FontFamily="Default" TextColor="Blue" />
+                        </StackLayout>
+                        <Label Text="Description:" FontSize="18" FontFamily="Default" FontAttributes="Bold" />
+                        <Label x:Name="RentalContractDescription" Text="{Binding ContractDescription}" FontSize="18" TextColor="Black" FontFamily="Default"/>
+                        <Label Text="Status:" FontSize="18" FontAttributes="Bold" FontFamily="Default"></Label>
+                        <Picker x:Name="RentalContractStatus" IsEnabled="False" TextColor="Black" FontSize="18" FontFamily="Default"></Picker>
+                        <Label Text="Start Date:" FontSize="18" FontFamily="Default" FontAttributes="Bold" />
+                        <Entry x:Name="StartDate" TextColor="Black" IsEnabled="False" IsVisible="false" FontSize="18" FontFamily="Default"/>
+                        <Entry x:Name="txtStartDate" FontSize="18" FontFamily="Default"></Entry>
+                        <Label Text="End Date:" FontSize="18" FontFamily="Default" FontAttributes="Bold" />
+                        <Entry x:Name="EndDate" TextColor="Black" IsEnabled="False" IsVisible="false" FontSize="18" FontFamily="Default"/>
+                        <Entry x:Name="txtEndDate" FontSize="18" FontFamily="Default"></Entry>
+                        <Label Text="Billing Frequency:" FontSize="18" FontFamily="Default" FontAttributes="Bold" />
+                        <Label x:Name="BillingFrequency" TextColor="Black" IsEnabled="False" FontSize="18" FontFamily="Default"/>
+                        <Label Text="Billing Type:" FontSize="18" FontFamily="Default" FontAttributes="Bold" />
+                        <Label x:Name="BillingType" Text="Calculated" IsEnabled="False" TextColor="Black"  FontSize="18" FontFamily="Default"/>
+                        <Label Text="Lead Partner:" FontSize="18" FontAttributes="Bold" FontFamily="Default"></Label>
+                        <Label x:Name="RentalContractPartner" Text="{Binding RentalContractPartner}" FontSize="18" FontFamily="Default"/>
+
+                    </StackLayout>
+                </Frame>
+                <Frame BackgroundColor="White" Margin="1" HasShadow="True">
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Customer" FontSize="18" FontFamily="Default" TextColor="Blue" Grid.Column="0" />
+                            <ImageButton Source="DetailsIcon.png" HeightRequest="40" WidthRequest="40"  Grid.Column="1" Clicked="CustomerDetails" />
+                        </StackLayout>
+                        <Label x:Name="RentalContractCustomerName" TextColor="Black" IsEnabled="False" Text="Customer Name" FontFamily="Default" FontAttributes="Bold" FontSize="18" ></Label>
+                        <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="locationicon.jpg" Clicked="LocationClicked" HeightRequest="40" WidthRequest="40" CornerRadius="10"></ImageButton>
+                            <Label x:Name="AddressLabel" TextColor="Black" FontSize="18" FontFamily="Default" ></Label>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame>
+                    <StackLayout>
+                        <Label Text="Contact" TextColor="Blue" FontSize="18" FontFamily="Default"></Label>
+                        <Label x:Name="RentalContractContactName" IsEnabled="False" FontSize="18"></Label>
+                        <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="callicon.jpg" Clicked="CallClicked" HeightRequest="40" WidthRequest="40" CornerRadius="10"></ImageButton>
+                            <Label  x:Name="PhoneEntry" TextColor="Black" IsEnabled="False" FontSize="18" HorizontalOptions="StartAndExpand"></Label>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="email.jpg" Clicked="SendEmail" HeightRequest="40" WidthRequest="40" CornerRadius="10"></ImageButton>
+                            <Label x:Name="EmailAddress" TextColor="Black" IsEnabled="False" FontSize="18" HorizontalOptions="StartAndExpand" ></Label>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

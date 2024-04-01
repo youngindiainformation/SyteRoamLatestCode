@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Name="ContentPage3"
+             x:Class="TestApp2.AttachmentsPage" Title="Documents" BackgroundColor="White">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  IconImageSource="addicon.jpg" Clicked="AddDocumentClicked" />
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <StackLayout>
+        <ListView x:Name="ATTLIST" ItemsSource="{Binding Source={x:Reference ContentPage3}, Path=BindingContext.MyList}" IsVisible="True" HasUnevenRows="True">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <ViewCell.View>
+                            <StackLayout Orientation="Vertical" Padding="10">                               
+                                <Label Text="{Binding Name}" TextColor="Black" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" FontSize="15" Padding="10"></Label>
+                            </StackLayout>
+                        </ViewCell.View>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+            <Button IsVisible="true" x:Name="SyncAttachments" Text="Sync Attachments" Clicked="SyncAttachmentsClicked" BackgroundColor="Green" TextColor="White" FontSize="16" FontAttributes="Bold"  CornerRadius="10" Padding="10" HorizontalOptions="Center" Margin="0,18" />        </StackLayout>
+            </ContentPage.Content>
+
+</ContentPage>

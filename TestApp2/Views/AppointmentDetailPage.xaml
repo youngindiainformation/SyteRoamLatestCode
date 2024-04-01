@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.AppointmentDetailPage"
+             Title="Appointment Details"
+             NavigationPage.HasNavigationBar="True"
+             BackgroundColor="White">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  IconImageSource="dotsicon.jpg" NavigationPage.HasNavigationBar="True" Clicked="AppointmentMenuClicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <RefreshView x:Name="refreshView" RefreshColor="Blue" Refreshing="refreshView_Refreshing">
+            <ScrollView>
+            <StackLayout Orientation="Vertical">
+                <Frame Margin="1" HasShadow="True">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="20" Padding="10">
+                        <ImageButton IsVisible="false" x:Name="clockId" CornerRadius="5" Source="clockiconorange.jpg" Clicked="ClockClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton IsVisible="false" Source="notesicon.jpg" CornerRadius="5" Clicked="CalendarClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton Source="cameraicon.jpg" CornerRadius="5" Clicked="CameraClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton Source="galleryicon.jpg" CornerRadius="5" Clicked="GalleryClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton Source="attachmenticon.jpg" CornerRadius="5" Clicked="AttachmentClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton x:Name="imgDocuments"  Source="Documents.png" CornerRadius="5" Clicked="imgDocuments_Clicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                    </StackLayout>
+                </Frame>
+                <Frame IsVisible="False">
+                    <Image x:Name="image" IsVisible="False"/>
+                </Frame>
+                <Frame Margin="1" HasShadow="True">
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Horizontal">
+                        <Label Text="Rental Contract" FontSize="18" FontFamily="Default" FontAttributes="Bold" TextColor="Blue" />
+                            <ImageButton Source="DetailsIcon.png" HeightRequest="40" WidthRequest="40"  Grid.Column="1" Clicked="RentalContractDetails" />
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                            <Entry IsEnabled="False" FontAttributes="Bold" x:Name="ServType" Placeholder="RentalContract" FontSize="18" FontFamily="Default"></Entry>
+                            <Entry x:Name="RefNum" Placeholder="DS000000001" FontSize="18" FontFamily="Default" IsReadOnly="True"></Entry>
+                        </StackLayout>
+                        <Label x:Name="ClockedOnTextLabel" TextColor="Green" Text="Clocked On:" FontSize="18" FontAttributes="Bold" FontFamily="Default" IsVisible="False"></Label>
+                        <Label x:Name="ClockedOnText" Text="{Binding ClockText}" FontSize="18" TextColor="Red" IsVisible="False"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame Margin="1" HasShadow="True">
+                    <StackLayout>
+                        <Label  Text="Description" FontSize="18" FontFamily="Default" FontAttributes="Bold"/>
+                        <Entry x:Name="Description" Placeholder="Description" FontSize="18"></Entry>
+                        <Label Text="Date:" FontSize="18" FontFamily="Default" FontAttributes="Bold" ></Label>
+                        <StackLayout Orientation="Horizontal">
+                            <DatePicker x:Name="AppDate" Format="MM/dd/yyyy" FontSize="18" FontFamily="Default"></DatePicker>
+                            <TimePicker x:Name="AppTime" FontSize="18" FontFamily="Default"></TimePicker>
+                        </StackLayout>
+                        <Label Text="Hours:" FontSize="18" FontFamily="Default" FontAttributes="Bold" ></Label>
+                        <Entry x:Name="Duration" Placeholder="0.00" FontSize="18" FontFamily="Default"></Entry>
+                        <Label Text="Appointment Type:" FontSize="18" FontFamily="Default" FontAttributes="Bold" ></Label>
+                        <Picker x:Name="AppointmentType" FontSize="18"  FontFamily="Default" ItemDisplayBinding="{Binding DisplayName}"></Picker>
+                        <Label Text="Status:" FontSize="18" FontFamily="Default" FontAttributes="Bold" ></Label>
+                        <Picker x:Name="AppStatusList" HorizontalTextAlignment="Start" ItemDisplayBinding="{Binding StatusDisplayName}"></Picker>
+                        <Label Text="Complete:" FontSize="18" FontFamily="Default" FontAttributes="Bold" ></Label>
+                        <Switch x:Name="CompleteSwitch" HorizontalOptions="Start" IsToggled="False"></Switch>
+                        <Label Text="Partner:" FontSize="18" FontFamily="Default" FontAttributes="Bold"></Label>
+                        <Entry x:Name="PartnerName" FontSize="18" IsReadOnly="True" FontFamily="Default"></Entry>
+                        <Label Text="TaskSeq" FontSize="18" FontFamily="Default" FontAttributes="Bold" IsVisible="false"></Label>
+                        <Entry x:Name="TaskSeqNumber" FontSize="18" FontFamily="Default" IsVisible="false"></Entry>
+                        </StackLayout>
+                </Frame>                
+                <Frame BackgroundColor="White" Margin="1" HasShadow="True">
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Customer" FontSize="18" FontFamily="Default" FontAttributes="Bold" VerticalTextAlignment="Center" TextColor="Blue" Grid.Column="0" />
+                            <ImageButton Source="DetailsIcon.png" HeightRequest="40" WidthRequest="40"  Grid.Column="1" Clicked="CustomerDetails" IsVisible="false"/>
+                        </StackLayout>
+                        <Label x:Name="CustomerName" Text="Customer Name" FontFamily="Default" FontAttributes="Bold" FontSize="18" ></Label>
+                        <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="locationicon.jpg" Clicked="LocationClicked" HeightRequest="40" WidthRequest="40" CornerRadius="10" ></ImageButton>
+                            <Label x:Name="AddressLabel"  FontSize="18" TextColor="Black" FontFamily="Default" ></Label>
+                        </StackLayout>
+
+                        <StackLayout Orientation="Horizontal">
+                            <ImageButton Source="callicon.jpg" Clicked="CallClicked" HeightRequest="40" WidthRequest="40" CornerRadius="10"></ImageButton>
+                            <Entry  x:Name="PhoneEntry" Text="317-555-8765" FontSize="18" HorizontalOptions="StartAndExpand"></Entry>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal">
+                        <ImageButton Source="email.jpg" Clicked="SendEmail" HeightRequest="40" WidthRequest="40" CornerRadius="10"></ImageButton>
+                            <Entry x:Name="EmailAddress" FontSize="18" HorizontalOptions="StartAndExpand" ></Entry>
+                        </StackLayout>
+                    </StackLayout>
+                </Frame>
+                <Frame Margin="1" HasShadow="True">
+                    <StackLayout Orientation="Vertical">
+                        <Label Text="Note" FontSize="18" FontFamily="Default" TextColor="Blue" />
+                        <Editor x:Name="NotesSubject" FontSize="18" IsReadOnly="True" TextColor="Black" FontFamily="Default"></Editor>
+                        <Frame CornerRadius="5" BorderColor="Gray" HeightRequest="100" WidthRequest="100" Margin="1">
+                            <Label x:Name="Notes" TextColor="Black" HorizontalOptions="StartAndExpand" VerticalOptions="StartAndExpand"/>
+                        </Frame>
+                    </StackLayout>
+                </Frame>
+                <Button Text="Save" Padding="10" BackgroundColor="Green" TextColor="White" FontSize="16" FontAttributes="Bold" HorizontalOptions="Center" CornerRadius="10" Clicked="SaveDataLocalDB"></Button>
+            </StackLayout>
+        </ScrollView>
+        </RefreshView>
+    </ContentPage.Content>
+</ContentPage>

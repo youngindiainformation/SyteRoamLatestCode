@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.Views.NewLinePage"
+             Title="Line">
+    <ContentPage.ToolbarItems>
+        <ToolbarItem  IconImageSource="dotsicon.jpg" NavigationPage.HasNavigationBar="True" Clicked="LineMenuClicked"/>
+    </ContentPage.ToolbarItems>
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout Orientation="Vertical">
+                <Frame Margin="1" HasShadow="True">
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" VerticalOptions="FillAndExpand" Spacing="20" Padding="10">
+                        <ImageButton x:Name="clockId" CornerRadius="5" Source="clockiconorange.jpg" Clicked="ClockClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton Source="notesicon.jpg" CornerRadius="5" Clicked="CalendarClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton Source="cameraicon.jpg" CornerRadius="5" Clicked="CameraClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton Source="galleryicon.jpg" CornerRadius="5" Clicked="GalleryClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton Source="attachmenticon.jpg" CornerRadius="5" Clicked="AttachmentClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                        <ImageButton Source="workordericon.jpg" CornerRadius="5" Clicked="NotepadClicked" HeightRequest="35" WidthRequest="35" Padding="0"></ImageButton>
+                    </StackLayout>
+                </Frame>
+                <Frame IsVisible="False">
+                    <Image x:Name="image" IsVisible="False"/>
+                </Frame>
+                <Frame Margin="1" HasShadow="True" IsVisible="False">
+                    <StackLayout Orientation="Vertical" >
+                   
+                        <Label x:Name="ClockedOnTextLabel" TextColor="Green" Text="Clocked On:" FontSize="20" FontAttributes="Bold" FontFamily="Default" IsVisible="False"></Label>
+                        <Label x:Name="ClockedOnText" Text="{Binding ClockText}" FontSize="20" TextColor="Red" IsVisible="False"></Label>
+                    </StackLayout>
+                </Frame>
+                <Frame Margin="1" HasShadow="True">
+                    <StackLayout Orientation="Vertical">
+                        <Label x:Name="NewLineContractID" Text="Appointment" FontSize="20" FontFamily="Default" TextColor="Blue" />
+                        <Label Text="Line:"  FontSize="20" FontFamily="Default"  FontAttributes="Bold"/>
+                        <Entry x:Name="NewLineNum" FontSize="20" FontFamily="Default"></Entry>
+                        <Label Text="Status:"  FontSize="20" FontFamily="Default"  FontAttributes="Bold"/>
+                        <Picker x:Name="NewLineStatusList" HorizontalTextAlignment="Start" ></Picker>
+                        <Label Text="Start Date:" FontSize="20"  FontFamily="Default"  FontAttributes="Bold"/>
+                        <DatePicker x:Name="NewStartDate"></DatePicker>
+                        <Label Text="End Date:"  FontSize="20" FontFamily="Default"  FontAttributes="Bold"/>
+                        <DatePicker x:Name="NewEndDate"></DatePicker>
+                        <Label Text="Check In Date:" FontSize="20" FontAttributes="Bold" FontFamily="Default" ></Label>
+                        <DatePicker x:Name="NewCheckInDate"></DatePicker>
+                        <Label Text="Check Out Date:" FontSize="20" FontAttributes="Bold" FontFamily="Default" ></Label>
+                        <DatePicker x:Name="NewCheckOutDate"></DatePicker>
+                        <Label Text="Billing Frequency:" FontSize="20" FontAttributes="Bold" FontFamily="Default" ></Label>
+                        <Entry x:Name="NewBillingFrequency" FontSize="20" FontFamily="Default" TextColor="Black" ></Entry>
+                        <Label Text="Lead Partner:" FontSize="20" FontAttributes="Bold" FontFamily="Default" ></Label>
+                        <Entry x:Name="NewLineLeadPartner" FontSize="20" FontFamily="Default"></Entry>
+                    </StackLayout>
+                </Frame>
+              
+                <Frame Margin="1" HasShadow="True">
+                    <StackLayout Orientation="Vertical">
+                        <StackLayout Orientation="Horizontal">
+                            <Label Text="Unit" FontSize="20" FontFamily="Default" TextColor="Blue"/>
+                            <ImageButton Source="DetailsIcon.png" CornerRadius="5"  HeightRequest="40" WidthRequest="40" Padding="0"></ImageButton>
+                        </StackLayout>
+                        <Entry x:Name="NewLineSerialNum" Placeholder="Unit" FontSize="20" FontFamily="Default"></Entry>
+                        <Entry x:Name="NewLineItem" Placeholder="Item" FontSize="20" FontFamily="Default"></Entry>
+                        <Entry x:Name="NewLineDescription" FontSize="20" FontFamily="Default"></Entry>
+                        <Grid>
+                            <StackLayout Grid.Column="0">
+                                <Label Text="U/M:"  FontSize="15" FontFamily="Default"  FontAttributes="Bold"/>
+                                <Entry x:Name="NewUM" Placeholder="Each" FontSize="15" FontFamily="Default"></Entry>
+                                <Label Text="Rate:"  FontSize="15" FontFamily="Default"  FontAttributes="Bold"/>
+                                <Entry x:Name="NewRate_conv" Placeholder="Each" FontSize="15" FontFamily="Default"></Entry>
+                                <Label Text="Prorate:"  FontSize="15" FontFamily="Default"  FontAttributes="Bold"/>
+                                <Entry x:Name="NewProrate_rate_conv" Placeholder="Each" FontSize="15" FontFamily="Default"></Entry>
+                            </StackLayout>
+                            <StackLayout Grid.Column="1">
+                                <Label Text="Quantity:"  FontSize="15" FontFamily="Default"  FontAttributes="Bold"/>
+                                <Entry x:Name="NewQuantity" Placeholder="Each" FontSize="15" FontFamily="Default"></Entry>
+                                <Label Text="Unit of Rate:"  FontSize="15" FontFamily="Default"  FontAttributes="Bold"/>
+                                <Entry x:Name="NewUnit_of_rate" Placeholder="Each" FontSize="15" FontFamily="Default"></Entry>
+                                <Label Text="Prorate Unit of Rate:"  FontSize="15" FontFamily="Default"  FontAttributes="Bold"/>
+                                <Entry x:Name="NewProrate_unit_of_rate" Placeholder="Each" FontSize="15" FontFamily="Default"></Entry>
+                            </StackLayout>
+                        </Grid>
+                        <Label Text="Inspection Type:"  FontSize="20" FontFamily="Default"  FontAttributes="Bold"/>
+                        <Entry x:Name="NewLineInspectionType" FontSize="20" FontFamily="Default"></Entry>
+
+                    </StackLayout>
+                </Frame>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

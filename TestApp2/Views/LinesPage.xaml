@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.Views.LinesPage"
+             Title="Delivery Lines">
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem  IconImageSource="addicon.jpg" NavigationPage.HasNavigationBar="True" Clicked="AddLineClicked"/>
+    </ContentPage.ToolbarItems>-->
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout>
+            <Button x:Name="GoToProofOfDelivery" Padding="10" Text="Proof Of Delivery" IsEnabled="False" Clicked="GoToProofOfDeliveryClicked" HorizontalOptions="CenterAndExpand" TextColor="White" BackgroundColor="Green" CornerRadius="10"></Button>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Rental Contract: " TextColor="Black" FontSize="16" FontAttributes="Bold" ></Label>
+                <Label x:Name="Contractid" Text="{Binding Contractid}" TextColor="Black" FontSize="16" FontAttributes="Bold"></Label>
+            </StackLayout>
+            <ListView x:Name="MenuItemsListView" ItemTapped="MenuItemsListView_ItemTapped" SeparatorVisibility="Default" HasUnevenRows="true" SeparatorColor="Black">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <StackLayout Padding="10">                                
+                                
+                                <StackLayout Orientation="Horizontal" >
+                                    <CheckBox x:Name="LineCheck" IsChecked="False" CheckedChanged="LineCheck_CheckedChanged"></CheckBox>
+                                    <StackLayout Orientation="Vertical" >
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Line: " TextColor="DodgerBlue" FontSize="16" FontAttributes="Bold" ></Label>
+                                            <Label x:Name="LineNumber" Text="{Binding LineNumber}" TextColor="DodgerBlue" FontAttributes="Bold" FontSize="16"></Label>
+                                        </StackLayout>
+
+                                        <Label x:Name="SerialNumber" Text="{Binding SerialNumber}" TextColor="Black" FontSize="16"></Label>
+                                        <Label x:Name="Item" Text="{Binding Item}" TextColor="Black" FontSize="16" ></Label>
+                                        <Label x:Name="Description" Text="{Binding Description}" TextColor="Black" FontSize="16"></Label>
+                                        <StackLayout Orientation="Horizontal">
+                                            <Label Text="Qty: " FontAttributes="Bold" TextColor="Black" FontSize="16"></Label>
+                                            <Label x:Name="Quantity" Text="{Binding Quantity}" TextColor="Black" FontSize="16"></Label>
+                                        </StackLayout>
+                                    </StackLayout>
+                                </StackLayout>
+                                <ImageButton  Source="nexticon.jpg" IsEnabled="False" HeightRequest="30"  WidthRequest="40" BackgroundColor="White" HorizontalOptions="End"  CornerRadius="5"></ImageButton>
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

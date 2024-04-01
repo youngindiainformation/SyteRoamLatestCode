@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TestApp2.TestApp2SyteLineServicePageDetail"
+             Title="ERS and Construction Service"
+             BackgroundColor="White">
+    <RefreshView x:Name="refreshView"
+                 RefreshColor="Blue"
+                 Refreshing="refreshView_Refreshing">
+    <ScrollView >
+    <StackLayout Padding="10" x:Name="mainLayout">       
+        <Image Source="appLogo.png" WidthRequest="300" HeightRequest="100" HorizontalOptions="Center" VerticalOptions="Center" BackgroundColor="White"/>
+        <Frame Margin="5">
+            <StackLayout Orientation="Horizontal">
+                <ImageButton Source="infoicon.jpg" HeightRequest="20" WidthRequest="20" CornerRadius="20" HorizontalOptions="Center" VerticalOptions="Center"></ImageButton>
+                <StackLayout Orientation="Vertical">
+                    <Label x:Name="LoginUname" Text="Username" FontSize="20" TextColor="Blue"></Label>
+                    <StackLayout Orientation="Horizontal">
+                    <Label  Text="Site: " TextColor="Black" FontSize="16"  FontFamily="Default"></Label>
+                    <Label  x:Name="LoginSite" TextColor="Black" FontSize="16"  FontFamily="Default"></Label>
+                </StackLayout>
+                    <Label x:Name="LoginStatus" FontSize="16" ></Label>
+                    <Label x:Name="syncDataOnline" FontSize="14"/>
+                </StackLayout>
+            </StackLayout>
+        </Frame>
+        <StackLayout Orientation="Vertical" HorizontalOptions="FillAndExpand" Margin="1">
+            <Frame Margin="5">
+                <StackLayout Orientation="Horizontal" HorizontalOptions="FillAndExpand" Spacing="10">
+                    <ImageButton Source="appointment.jpeg" WidthRequest="40" HeightRequest="40" CornerRadius="10"></ImageButton>
+                    <Label Text="Appointments" TextColor="Black" FontSize="20" HorizontalTextAlignment="Center" VerticalTextAlignment="Center"></Label>
+                    <Frame HeightRequest="40" WidthRequest="40" CornerRadius="20" HorizontalOptions="Start" VerticalOptions="Start" Margin="0" Padding="0" BackgroundColor="DodgerBlue">
+                        <Label x:Name="AppCount" Text="0" TextColor="White" HorizontalOptions="Center" VerticalOptions="Center" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" />
+                    </Frame>
+                    <ImageButton Source="nexticon.jpg" HeightRequest="20" WidthRequest="40" BackgroundColor="White" HorizontalOptions="EndAndExpand" Clicked="AppointmentsClicked" CornerRadius="5"></ImageButton>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+        
+                <ActivityIndicator x:Name="activity"  
+                       IsRunning="False"  
+                       IsEnabled="False"  
+                       IsVisible="False"  
+                       Color="Blue"  
+                       BackgroundColor="Transparent"/>  
+    </StackLayout>
+        </ScrollView>
+        </RefreshView>
+</ContentPage>
